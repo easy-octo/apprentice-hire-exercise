@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/easy-octo/apprentice-hire-exercise/compare/v1.0.2...v1.0.3) (2024-12-12)
+
+
+### Bug Fixes
+
+* updates workflow permissions ([d503082](https://github.com/easy-octo/apprentice-hire-exercise/commit/d50308254623aafb7476542467aae723758dcab1))
+
 ## [1.0.2](https://github.com/easy-octo/apprentice-hire-exercise/compare/v1.0.1...v1.0.2) (2024-12-12)
 
 
