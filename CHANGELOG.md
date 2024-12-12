@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/easy-octo/apprentice-hire-exercise/compare/v1.0.1...v1.0.2) (2024-12-12)
+
+
+### Bug Fixes
+
+* fixed path typo in Dockerfile ([3a6a243](https://github.com/easy-octo/apprentice-hire-exercise/commit/3a6a2438c56bbf7d9c3f902d1620c2367b7ef2eb))
+
 ## [1.0.1](https://github.com/easy-octo/apprentice-hire-exercise/compare/v1.0.0...v1.0.1) (2024-12-12)
 
 
