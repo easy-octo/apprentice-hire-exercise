@@ -1,0 +1,8 @@
+issuer: https://token.actions.githubusercontent.com
+subject_pattern: repo:easy-octo/apprentice-hire-exercise:ref:refs/heads/main
+claim_pattern:
+  workflow_ref: easy-octo/apprentice-hire-exercise/.github/workflows/release-please.yaml@.* # Still not sure what needs to come after the actual workflow name but this works
+
+permissions:
+  contents: write
+  pull-requests: write
