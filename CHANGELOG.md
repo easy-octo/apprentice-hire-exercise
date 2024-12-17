@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.1.0](https://github.com/easy-octo/apprentice-hire-exercise/compare/v1.0.3...v1.1.0) (2024-12-17)
+
+
+### Features
+
+* change release-please to use octo-sts, update the image that is published to match the repository ([92494fb](https://github.com/easy-octo/apprentice-hire-exercise/commit/92494fbe6fa0bb1b692f239b6113464a9530d8c7))
+
+
+### Bug Fixes
+
+* add pull_request permission to octo-sts trust policy ([d7499cc](https://github.com/easy-octo/apprentice-hire-exercise/commit/d7499ccf09d8e627645f3831f3896becf03af28f))
+* add space so comment does not break location of trust policy for octo-sts ([5dd25de](https://github.com/easy-octo/apprentice-hire-exercise/commit/5dd25de97ed2a2bd1f06c985358019ff87875f96))
+* added missing id-token write permission ([1a11229](https://github.com/easy-octo/apprentice-hire-exercise/commit/1a11229160282a81ab18bbe06fdc8cfc43a2ca5b))
+* trying to remove the pull-request permission from trust policy as it is failing to parse for some reason ([be32e24](https://github.com/easy-octo/apprentice-hire-exercise/commit/be32e24124c31522e4bd24ff7b4f0774501be986))
+* updated subject_pattern to match main branch on apprentice-hire-exercise ([59f17dc](https://github.com/easy-octo/apprentice-hire-exercise/commit/59f17dcf312e6ded586143de42fad5f6db644ee8))
+
 ## [1.0.3](https://github.com/easy-octo/apprentice-hire-exercise/compare/v1.0.2...v1.0.3) (2024-12-12)
 
 
