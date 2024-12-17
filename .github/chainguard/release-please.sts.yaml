@@ -1,7 +1,9 @@
+# Great examples if you need other things can be found
+# https://github.com/chainguard-dev/.github/tree/main/.github/chainguard
 issuer: https://token.actions.githubusercontent.com
 subject_pattern: repo:easy-octo/apprentice-hire-exercise:ref:refs/heads/master
 claim_pattern:
-  workflow_ref: easy-octo/apprentice-hire-exercise/.github/workflows/release-please.yaml@.* # Still not sure what needs to come after the actual workflow name but this works
+  workflow_ref: easy-octo/apprentice-hire-exercise/.github/workflows/release-please.yaml@refs/heads/master
 
 permissions:
   contents: write
