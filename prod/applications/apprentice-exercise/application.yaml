@@ -1,0 +1,18 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: apprentice-exercise
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/easy-octo/dob-platform-core
+    targetRevision: HEAD
+    path: prod/applications/apprentice-exercise
+  destination:
+    server: https://kubernetes.default.svc
+    # namespace: apprentice-exercise
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
