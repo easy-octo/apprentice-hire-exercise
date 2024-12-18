@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/easy-octo/apprentice-hire-exercise/compare/v1.1.0...v1.1.1) (2024-12-18)
+
+
+### Bug Fixes
+
+* change json message ([91ae604](https://github.com/easy-octo/apprentice-hire-exercise/commit/91ae6041fe69ba6322c8cddaeb7acbfb47ccb26e))
+
 ## [1.1.0](https://github.com/easy-octo/apprentice-hire-exercise/compare/v1.0.3...v1.1.0) (2024-12-17)
 
 
