@@ -3,7 +3,7 @@ const app = express();
 
 app.get("/", async (request, response) => {
   response.json({
-    message: "My name is Joshua Burns",
+    message: "My name is Joshua Burns!",
     timestamp: Date.now(),
   });
 });
