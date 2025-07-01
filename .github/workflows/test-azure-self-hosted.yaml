@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: [ self-hosted, azure, vm, terraform-azure-github-runner ]
+    runs-on: [ self-hosted, azure, vm]
     steps:
       - uses: actions/checkout@v4
 
