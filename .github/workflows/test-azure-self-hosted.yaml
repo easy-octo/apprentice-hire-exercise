@@ -1,0 +1,15 @@
+name: CI on Liatrio Azure runner
+
+on:
+  workflow_dispatch
+
+jobs:
+  build:
+    runs-on: [ self-hosted, azure, vm, terraform-azure-github-runner ]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Show runner info
+        run: |
+          echo "Running on $(uname -a)"
+          echo "Labels: ${{ runner.labels }}"
