@@ -20,7 +20,7 @@ jobs:
           scope: ${{ github.repository }} # Where to look for the trust policy <org>/<repo> (octo-sts must be installed on this repo)
           identity: release-please # prefix of the trust policy expected to be at <scope>/.github/chainguard/<identity>.sts.yaml
 
-      - uses: googleapis/release-please-action@v4
+      - uses: googleapis/release-please-action@v5
         with:
           token: ${{ steps.octo-sts.outputs.token }}
           release-type: simple
