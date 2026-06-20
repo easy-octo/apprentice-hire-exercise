@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on: [ self-hosted, azure, vm ]
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Show runner info
         run: |
