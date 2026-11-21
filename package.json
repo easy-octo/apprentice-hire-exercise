@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/easy-octo/apprentice-hire-exercise",
   "dependencies": {
-    "express": "^4.21.0"
+    "express": "^5.0.0"
   }
 }
